@@ -9,3 +9,8 @@
 [Data review and hypothesis testing file](https://github.com/m0gr1m/Personal_medical_cost/blob/main/analysis_part_one.ipynb).
 
 [Machine learning model file](https://github.com/m0gr1m/Personal_medical_cost/blob/main/model_ml.ipynb).
+
+------
+
+# Motivation
+
