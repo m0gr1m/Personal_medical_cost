@@ -50,7 +50,7 @@ We used the scikit-learn package and four algorithms when building the model:
 + k-Nearest Neighbor Regression 
 + Bayesian Regression 
 
-The metric we used to choose the best model was $$R^2$$, and the model that had the best value of it was **Lasso**.
+The metric we used to choose the best model was \\[R^2\\], and the model that had the best value of it was **Lasso**.
 
 The first model I built had a score of 75.57% and the plot of true values versus predictions showed a relatively poor model fit.  
 Therefore, I decided to remove the outliers and run the procedure again. The final model seen below has an approximate 85% score of correct prediction values versus true values. 
