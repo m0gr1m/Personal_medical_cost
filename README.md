@@ -28,7 +28,7 @@ Using selected statistical tests, check whether:
 
 ------
 
-# Quick summary:
+# Quick summary
 
 + There are almost equal numbers of men and women in the dataset, as well as regions. There is a significant difference in the number of smokers; this is a much smaller group. 
 + The average customer is 39 years old, obese and has one child.
@@ -37,7 +37,7 @@ Using selected statistical tests, check whether:
 <center><img src="https://i.imgur.com/0AoI9PC.png" width="500"></center>
 
 + Smoking is not associated with bmi, and the cost of insurance paid out is not region-specific.
-+ It should be noted that the biggest difference is in the amount of charges and the fact that the client smokes cigarettes; this is almost a fourfold increase in cost because of being smokers relative to a non-smoker. The following situation is illustrated by the graph below, which show that such a small group of people is responsible for a significant increase in overall mean charges.
++ It should be noted that the biggest difference is in the amount of charges regarding smokes cigarettes. It is almost a fourfold increase in cost because of being smokers relative to a non-smoker. The following situation is illustrated by the graph below, which show that such a small group of people is responsible for a significant increase in overall charges mean.
 
 
 <center><img src="https://i.imgur.com/UbQZV68.png" width="800"></center>
@@ -52,8 +52,8 @@ We used the scikit-learn package and four algorithms when building the model:
 
 The metric we used to choose the best model was R square, and the model that had the best value of it was **Lasso**.
 
-The first model I built had a score of 75.57% and the plot of true values versus predictions showed a relatively poor model fit.  
-Therefore, I decided to remove the outliers and run the procedure again. The final model seen below has an approximate 85% score of correct prediction values versus true values. 
+The first model we built had a score of 75.57% and the plot of true values versus predictions showed a relatively poor model fit.  
+Therefore, we decided to remove the outliers and run the procedure again. The final model seen below has an approximate 85% score of correct prediction values versus true values. 
 
 <center><img src="https://i.imgur.com/GDNz7uS.png" width="800"></center>
 
